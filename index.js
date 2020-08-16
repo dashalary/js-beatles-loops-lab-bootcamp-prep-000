@@ -10,11 +10,12 @@ function theBeatlesPlay(musicians, instruments) {
 
 function johnLennonFacts(facts) {
   let i = 0;
-  while (i<4) {
+  while (i<2) {
     let fact = facts[i]
-    let updatedFact = fact + `!!!`
+    let updatedFact = fact + "!!!"
+    facts[i] = updatedFact;
     i++
-    console.log()
+
   }
   return facts;
 }
