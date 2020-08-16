@@ -1,7 +1,7 @@
 function theBeatlesPlay() {
-  var array = [`"John Lennon plays guiltar"`];
+  var array = [];
   for (let i = 0; i<4; i++) {
-    
+    array.push(`"John Lennon plays guitar"`)
   }
 }
   return array;
