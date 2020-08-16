@@ -12,8 +12,9 @@ function johnLennonFacts(facts) {
   let i = 0;
   while (i<4) {
     let fact = facts[i]
-    facts.push(`!!!`)
+    let updatedFact = fact + `!!!`
     i++
+    console.log()
   }
   return facts;
 }
