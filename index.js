@@ -31,4 +31,3 @@ function iLoveTheBeatles(num) {
     empty.push(`"I love the Beatles!"`);
   } while (incrementVariable()<15)
   }
-}
