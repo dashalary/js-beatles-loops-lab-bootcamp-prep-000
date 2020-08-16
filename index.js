@@ -1,6 +1,5 @@
 var array = []
-var musicians
-var instruments
+
 function theBeatlesPlay() {
 
   for (let i = 0; i<4; i++) {
